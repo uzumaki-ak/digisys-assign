@@ -6,7 +6,7 @@ to run this clone the repo
 npm run dev
 loc:3000
 
-there are 6 routes:export const NAV_LINKS = [
+there are 6 routes:
 
         name: "About",
         href: "/about"
