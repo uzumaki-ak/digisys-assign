@@ -54,31 +54,11 @@ export const SUPPORTED_LANGUAGES = [
         flag: "🇮🇹",
         code: "it"
     },
-    {
-        name: "Kazakh",
-        flag: "🇰🇿",
-        code: "kk"
-    },
-    {
-        name: "Indian",
-        flag: "🇮🇳",
-        code: "hi"
-    },
-    {
-        name: "Georgian",
-        flag: "🇬🇪",
-        code: "ka"
-    },
-    {
-        name: "Romanian",
-        flag: "🇷🇴",
-        code: "ro"
-    },
-    {
-        name: "Polish",
-        flag: "🇵🇱",
-        code: "pl"
-    },
+   {
+    name: "India",
+    flag: "🇮🇳",
+    code: "Ind"
+   },
     {
         name: "Ukrainian",
         flag: "🇺🇦",

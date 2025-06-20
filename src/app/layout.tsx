@@ -10,25 +10,25 @@ import Footer from "@/components/marketing/footer";
 export const metadata = generateMetadata();
 
 export default function RootLayout({
-    children,
+  children,
 }: Readonly<{
-    children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en" suppressHydrationWarning>
-            <body
-                className={cn(
-                    "min-h-screen bg-background text-foreground antialiased font-heading overflow-x-hidden !scrollbar-hide",
-                    base.variable,
-                    heading.variable,
-                    subheading.variable,
-                )}
-            >
-                    <Toaster richColors theme="dark" position="top-right" />
-                     <Navbar />
-                    {children}
-                    <Footer />
-            </body>
-        </html>
-    );
-};
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body
+        className={cn(
+          "min-h-screen bg-background text-foreground antialiased font-heading overflow-x-hidden !scrollbar-hide",
+          base.variable,
+          heading.variable,
+          subheading.variable
+        )}
+      >
+        <Toaster richColors theme="dark" position="top-right" />
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
+    </html>
+  );
+}
