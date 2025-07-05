@@ -10,7 +10,7 @@ import Ripple from "../ui/ripple";
 
 const SOCIAL_PLATFORMS = [
     { icon: Icons.linkedin, position: "left-3", size: "small", iconSize: "small", className: "hidden lg:flex" },
-    { icon: Icons.tiktok, position: "left-2", size: "medium", iconSize: "medium" },
+    { icon: Icons.mail, position: "left-2", size: "medium", iconSize: "medium" },
     { icon: Icons.insta, position: "left-1", size: "large", iconSize: "large" },
     { icon: Icons.youtube, position: "right-1", size: "large", iconSize: "large" },
     { icon: Icons.x, position: "right-2", size: "medium", iconSize: "medium" },
@@ -91,7 +91,13 @@ const Integration = () => {
                     </div>
 
                     <div className="absolute z-20 flex items-center justify-center group">
-                        <Images.logo className="size-24 group-hover:scale-110 transition-all duration-500" />
+                        <Image
+                            src={"/icons/icon.png"}
+                            alt="Integration"
+                            width={100}
+                            height={100}
+                            className="w-full h-auto max-w-2xl"
+                        />
                     </div>
 
                     {SOCIAL_PLATFORMS.map((platform, index) => (
