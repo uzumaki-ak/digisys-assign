@@ -13,7 +13,7 @@ const Navbar = () => {
             <Link href="/" className="flex items-center gap-2">
               <img src="./icons/icon.png" alt="logo" height={40} width={40} />
               <span className="text-xl font-semibold hidden lg:block">
-                DigiSys
+                DigiSys Innosol
               </span>
             </Link>
           </div>
