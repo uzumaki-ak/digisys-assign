@@ -18,10 +18,10 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     id: "ceo",
-    name: "JAMES YONG",
-    role: "CREATIVE TECHNOLOGIST",
+    name: "SURYAKANTI GHOSH",
+    role: "CHIEF EXECUTIVE OFFICER",
     image: "./images/luffy.webp",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/suryakanti-ghosh/",
     instagram: "#",
     twitter: "#",
     description: "Visionary leader driving innovation and creative solutions",
@@ -39,10 +39,10 @@ const teamMembers: TeamMember[] = [
   },
   {
     id: "designer",
-    name: "VICKI BARWELL",
-    role: "EXECUTIVE PRODUCER",
+    name: "SANDIPAN BANIK",
+    role: "DESIGN TEAM HEAD",
     image: "./images/luffy.webp",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/sandipan-banik-032027289/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     instagram: "#",
     twitter: "#",
     description: "Strategic producer ensuring project excellence",
