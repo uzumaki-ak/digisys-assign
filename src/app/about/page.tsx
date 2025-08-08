@@ -134,10 +134,8 @@ export default function AboutPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              DigiSys InnoSol Pvt. Ltd. is a cutting‑edge technology innovator
-              specializing in AI‑powered, IoT‑integrated hardware solutions
-              designed for critical sectors such as healthcare, surveillance,
-              and digital defense.
+              DigiSys InnoSol Private Limited is a dynamic digital solutions provider based in Chennai, India, committed to transforming ideas into intelligent systems. With a focus on innovation, efficiency, and user-centric design, we specialize in delivering tailored technology solutions that drive business growth and enhance digital experiences. 
+              From conceptualization to execution, our team blends creativity with technical expertise to solve real-world challenges through smart, scalable, and sustainable digital products.
             </motion.p>
 
             <motion.div
