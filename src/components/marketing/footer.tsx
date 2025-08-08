@@ -14,8 +14,8 @@ export default function Footer() {
   const socialLinks = [
     { icon: Facebook, href: "#", label: "Facebook" },
     { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Instagram, href: "#", label: "Instagram" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Instagram, href: "https://www.instagram.com/digisys_innosol_pvt?igsh=MW15YWRpNzQ3cmM1Mw%3D%3D&utm_source=qr", label: "Instagram" },
+    { icon: Linkedin, href: "https://www.linkedin.com/company/digisys-innosol-pvt-ltd/", label: "LinkedIn" },
   ];
 
   const footerLinks = [
@@ -52,11 +52,11 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-center text-gray-300">
                 <Mail className="w-5 h-5 mr-3 text-purple-400" />
-                digisol@gmail.com
+                design.digisys@gmail.com
               </div>
               <div className="flex items-center text-gray-300">
                 <Phone className="w-5 h-5 mr-3 text-purple-400" />
-                874400xxxx
+                +91 95213 88506
               </div>
               <div className="flex items-center text-gray-300">
                 <MapPin className="w-5 h-5 mr-3 text-purple-400" />
